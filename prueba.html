@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial</title>
+    <link rel="stylesheet" href="cssprueba.css">
+</head>
+
+<body>
+    <h1>Primera evaluación web 2025</h1>
+    <div class="table-container">
+        <h2 class="table-header">Tabla de datos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ramo</th>
+                    <th>Carrera</th>
+                    <th>%aprobados</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>programación web</td>
+                    <td>Ingeniería ejecución Informática</td>
+                    <td>8%</td>
+                </tr>
+                <tr>
+                    <td>Goma eva 1</td>
+                    <td>párvulo</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>Cisco II</td>
+                    <td>Ingeniería Ejecución Conectividad y Redes</td>
+                    <td>50%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Formulario de Registro</h2>
+    <div class = "form-container">
+        <div class ="form-header">Disquera</div>
+ </br>
+</br>
+        <form id="formulario" action="https://formulario.santotomas.cl/programacionWeb/2025" method="POST">
+            <div class ="form-group">
+                <label for="Nombre">Disco</label>
+                <input type="text" id="Nombre" name="Nombre" required minlength="20" maxlength="50" />
+            </div>
+
+            <div class ="form-group">
+                <label for="Duración">Duración disco por minuto</label>
+                <input type="number" id="Duración" name="Duración" required min="1" max="120"/>
+                </div>
+
+            <div class = "list-group">
+                <label for="Lista">Grupo o solista</label>
+            </br />
+                <select id="Lista" name="Lista" required>
+                    <option value="">Seleccione</option>
+                    <option value="Baby Metal">Baby Metal</option>
+                    <option value="Evanescense">Evanescense</option>
+                    <option value="Buddy Rich">Buddy Rich</option>
+                    <option value="Belanova">Belanova</option>
+                </select>
+            </div>
+    
+            <div class ="form-group">
+                <label>Género</label>
+            <div class="radio-group">
+                <label><input
+                    type="radio" name="Género" value="Metal" required />Metal</label>
+                <label><input type="radio" name="Género" value="Pop" />Pop</label>
+                <label><input type="radio" name="Género" value="Rock" />Rock</label>
+                <label><input type="radio" name="Género" value="Jazz" />Jazz</label>
+            </div>
+
+            <div class ="form-group">
+            <label>Versión</label>
+        <div class="checkbox-group">
+            <label><input type="checkbox" name="Versión[]" value="CD"/>CD</label>
+            <label><input type="checkbox" name="Versión[]" value="Vinilo" />Vinilo</label>
+            <label><input type="checkbox" name="Versión[]" value="Digital" />Digital</label>
+        </div>
+        </div>
+        <br />
+            <button name="btnEnviar" type="submit">Enviar datos</button>
+        </form>

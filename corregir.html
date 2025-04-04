@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+    body {
+        font-family : Arial, sans-serif;
+        background-color: #f0f0f0;
+    }
+ 
+    h1{
+        text-align: center;
+    }
+
+    .form-container {
+        width: 90%;
+        margin: auto;
+        padding: 2opx;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        border-radius: 10px;
+    }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Bienvenidos a mi página<h1>
+
+
+        <img src="https://th.bing.com/th/id/R.7640cd4967661471d80b373d75cb1bca?rik=Md5YBUW1HOFNtg&riu=http%3a%2f%2f2.bp.blogspot.com%2f-qnuhErdk_rw%2fUGY0LelGU1I%2fAAAAAAAAAEQ%2fpqr0vFD1ZfU%2fs1600%2fUST_logo&ehk=OB8XyQMOPpOUj1Az9EuLidHo8cLVDf%2fNQDNIDwD8RGY%3d&risl=&pid=ImgRaw&r=0" alt="Imagen de prueba" width="100px">
+        <p>Este es un párrafo.
+
+        <ul>
+            <li>Esto se supone</li>
+            <li>Que es un</li>
+            <li>Parrafo</li>
+        </ul>
+        <form action="procesar.php" method="ENCRIPT">
+            Nombre: <input pype="text" name="nombre"> <br>
+            Correo: <input type="email" name="correo"> <br>
+            <label>Contraseña: <input type="password" name="contraseña">
+            <br>
+            <h4>Acepto los términos y condiciones</h4>
+            <label><input type="checkbox" name="Aceptar[]" value="Si"/>Si</label>
+            <label><input type="checkbox" name="Aceptar[]" value="No"/>No</label>
+            <label><input type="checkbox" name="Aceptar[]" value="Talvez"/>Talvez</label>
+            <br>
+            <button name="btnEnviar" type="submit">Enviar datos</button>
+        </div>
+    </form>
+</body>
+</html>

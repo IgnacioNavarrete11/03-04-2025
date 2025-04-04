@@ -1,0 +1,98 @@
+.table-container {
+    margin-bottom: 30px;
+    gap: 900px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: yellow; /* Cambia el color de fondo aquí */
+    border: 2px solid red; /* Cambia el color del borde aquí */
+    margin-bottom: 20px;
+    font-size: 16px; /* Cambia el tamaño de la fuente aquí */
+    text-align: left;
+    color: white; /* Cambia el color del texto aquí */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+
+table th, table td {
+    border: 1px solid black; /* Cambia el color del borde aquí */
+    padding: 10px;
+    text-align: left;
+    color: black; /* Cambia el color del texto aquí */
+}
+
+.table-header {
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    font-size: 35px; /* Cambia el tamaño de la fuente aquí */
+    text-align: center; /* Cambia el color del texto aquí */
+    color: yellow;
+    background-color: blue; /* Cambia el color de fondo aquí */
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-container {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: yellow; /* Cambia el color de fondo aquí */
+    border: 2px solid red;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    text-align: center; /* Cambia el color del texto aquí */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    color: black; /* Cambia el color del texto aquí */
+    margin-bottom: 20px;
+    font-size: 16px; /* Cambia el tamaño de la fuente aquí */
+}
+
+.form-header {
+    padding: 10px;
+    margin: -20px -20px -20px -20px;
+    border-radius: 8px 8px 0 0; /* Bordes redondeados en la parte superior */
+    color: black;
+    font-family: Arial, sans-serif; /* Cambia la fuente aquí */
+}
+
+.form-group input[type="text"] {
+    width: 35%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Cambia el color del borde aquí */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Cambia el tamaño de la fuente aquí */
+}
+
+.form-group{
+    margin-bottom: 10px;
+    font-size: 20px; /* Cambia el tamaño de la fuente aquí */
+    color: black;
+
+}
+
+h1{
+    font-size: 35px; /* Cambia el tamaño de la fuente aquí */
+    text-align: center; /* Cambia el color del texto aquí */
+    color: black; /* Cambia el color del texto aquí */
+    margin-bottom: 5px;
+}
+
+h2{
+    font-size: 30px; /* Cambia el tamaño de la fuente aquí */
+    text-align: center; /* Cambia el color del texto aquí */
+    color: white; /* Cambia el color del texto aquí */
+    margin-bottom: 20px;
+    background-color: blue; /* Cambia el color de fondo aquí */
+}
